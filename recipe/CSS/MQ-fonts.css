@@ -1,0 +1,38 @@
+@font-face {
+    font-family: main-titles;
+    src: url(../assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+
+@font-face {
+    font-family: general;
+    src: url(../assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+
+@media (min-width:376px) {
+    .container{
+        width: 50%;
+    }
+}
+
+@media (max-width:376px) {
+
+    .container{
+        width: 100%;
+        
+    }
+
+    .parent{
+        padding: 0px;
+    }
+
+    img{
+        border-radius: 0px;
+        padding: 0px;
+    }
+
+    .title h1{
+        padding: 30px 0 5px;
+        font-size: 2.3em;
+    }
+
+}
