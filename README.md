@@ -6,6 +6,7 @@ This repository contains a collection of small projects created with Zigzag club
 ## Projects
 
 **1.** [Recipe page](https://github.com/BAHER1088/ZIGZAG-CS-Front-End-24/tree/main/recipe).
+**2.** [Skilled e-learning landing page](https://github.com/BAHER1088/ZIGZAG-CS-Front-End-24/tree/main/recipe](https://github.com/BAHER1088/ZIGZAG-CS-Front-End-24/tree/main/Skilled%20e-learning%20landing%20page).
 
 
 ## Getting Started
