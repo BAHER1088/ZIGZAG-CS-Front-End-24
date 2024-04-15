@@ -1,0 +1,130 @@
+/* --------------- DISKTOP --------------- */
+
+@media (min-width:1025px){
+    .disktopImg{
+        display: block;
+    }
+}
+
+/* --------------- TABLET (ipad Pro) --------------- */ 
+
+@media  (max-width:1024px){
+    body{
+        padding: 0px 45px;
+        width: 90vw;
+    }
+    .tabletImg{
+        display: block;
+    }
+    .breef div:first-child{
+        margin-top: -70px;
+    }
+    .breef img{
+        top: -16rem;
+        right: -1rem;
+    }
+    .header button{
+        position: relative;
+        right: 1.2rem;
+    }
+    .breef p{
+        font-size: 20px;
+        width: 480px;
+    } 
+    .breef p:first-child{
+        font-size: 50px;
+        width: 550px;
+        margin-bottom: 5%;
+    }
+    .breef button{
+        margin-top: 4%;
+    }
+    .cards{
+        margin-top: -300px;
+        grid-template-columns: repeat(2,1fr);
+        gap: 65px 30px;
+    }
+    .cards div{
+        padding: 40px;
+    }
+    .cards div p:nth-child(3){
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .cards div p:nth-child(2){
+        font-size: 22px;
+    }
+    .check p{
+        font-size: 30px;
+        width: auto;
+    }
+    .footer{
+        margin: 90px -200px 0px;
+    } 
+}
+
+/* --------------- MOBILE (Iphone 14 Pro Max) --------------- */
+
+@media  (max-width:431px){
+    body{
+        padding: 0px 20px;
+    }
+    .mobileImg{
+        display: block;
+    }
+    .tabletImg{
+        display: none;
+    }
+    .breef{
+        display: flex;
+        flex-direction: column;
+    }
+    .breef div:first-child{
+        margin-top: -70px;
+    }
+    .breef img{
+        top: 1rem;
+        right: 3rem;
+    }
+    .header button{
+        position: relative;
+        right: -.1rem;
+    }
+    .breef p{
+        font-size: 18px;
+        width: 370px;
+    } 
+    .breef p:first-child{
+        font-size: 37px;
+        width: 400px;
+        margin-bottom: 5%;
+    }
+    .breef button{
+        margin-top: 4%;
+    }
+    .cards{
+        margin-top: 0px;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .cards div{
+        padding: 40px;
+    }
+    .check{
+        height: 55px;
+    }
+    .cards div p:nth-child(3){
+        font-size: 17px;
+    }
+    .cards div p:nth-child(2){
+        font-size: 22px;
+    }
+    .check p{
+        font-size: 25px;
+        margin: 0px;
+    }
+    .footer{
+        margin: 90px -200px 0px;
+        padding: 30px 200px;
+        width:auto;
+    } 
+}

@@ -1,0 +1,161 @@
+*{
+    font-family: main-font;
+    
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+body{
+    background: linear-gradient(180deg, #FFF 0%, #F0F1FF 100%);
+    overflow-x:hidden;
+    margin: 0px;
+    padding: 0px 10%;
+    width: 80%;
+}
+
+html{
+    /* width: 90%; */
+    padding: 0px;
+    margin: 0px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3% 0px;
+}
+
+.header button{
+    padding: 15px 35px;
+    border-radius: 90px;
+    background-color: #13183f;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    border:none;
+    z-index: 1;
+}
+
+.breef{
+    display: flex;
+    margin-top: 100px;
+}
+
+
+.breef p{
+    color: #83869a;
+    font-size: 20px;
+    font-weight: 500;
+} 
+
+.breef p:first-child{
+    font-size: 60px;
+    font-weight: 800;
+    color: #13183f;
+    width: 490px;
+    margin-bottom: 10%;
+}
+
+.breef button{
+    padding: 15px 35px;
+    margin-top: 7%;
+    border-radius: 90px;
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    border:none;
+}
+
+.disktopImg{
+    display: none;
+}
+.tabletImg{
+    display: none;
+}
+.mobileImg{
+    display: none;
+}
+
+.breef img{
+    height: 90%;
+    position: relative;
+    top: -20rem;
+    right: -13rem;
+}
+
+.cards{
+    margin-top: -250px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 85px 30px;
+}
+
+.cards div{
+    background-color: white;
+    border-radius: 20px;
+    padding: 40px;
+}
+
+.cards img{
+    position: relative;
+    top: -175px;
+    left: -5px;
+    margin-bottom: -150px;
+    height: 60px;
+}
+
+.cards div p:nth-child(3){
+    color: #83869a;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.cards div p:first-child{
+    color: white;
+}
+
+.cards div p:nth-child(2){
+    color: #13183f;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.check{
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+}
+
+.check p{
+    color: white;
+    font-size: 35px;
+    font-weight: 800;
+}
+
+a{
+    color: #F74780;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration-line: none;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #13183f;
+    margin: 150px -200px 0px;
+    padding: 30px 200px;
+} 
+
+.footer button{
+    padding: 15px 35px;
+    border-radius: 90px;
+    background: linear-gradient(180deg, #6849ed 0%, #F02AA6 100%);
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    border:none;
+}
