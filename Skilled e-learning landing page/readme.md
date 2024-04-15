@@ -14,7 +14,7 @@ This Skilled e-learning landing web page provides a brief about the provided cou
 ![iPad Pro](https://github.com/BAHER1088/ZIGZAG-CS-Front-End-24/assets/153401499/2282f031-734c-4548-b7df-76413909aa60)
 
 * **Mobile view (Iphone 14 Pro Max):**
-![iPhone 14 Pro Max](https://github.com/BAHER1088/ZIGZAG-CS-Front-End-24/assets/153401499/37f36f4d-6b5e-4694-8ded-507c0f786212)
+![iPhone 14 Pro Max](https://github.com/BAHER1088/ZIGZAG-CS-Front-End-24/assets/153401499/7be301c5-352d-402a-90f2-fa9aa85ddfcd)
 
 ## Getting Started
 
