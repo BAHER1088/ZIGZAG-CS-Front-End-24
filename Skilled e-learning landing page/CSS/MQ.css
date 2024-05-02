@@ -63,14 +63,16 @@
     } 
 }
 
-/* --------------- MOBILE (Iphone 14 Pro Max) --------------- */
+/* --------------- MOBILE (Iphone 12 Pro) --------------- */
 
 @media  (max-width:431px){
     body{
-        padding: 0px 20px;
+        padding: 0px 15px;
+
     }
     .mobileImg{
         display: block;
+        
     }
     .tabletImg{
         display: none;
@@ -85,7 +87,7 @@
     .breef img{
         top: 1rem;
         right: 3rem;
-        height:107vw;
+        height:102vw;
     }
     .header button{
         position: relative;
@@ -97,7 +99,7 @@
     } 
     .breef p:first-child{
         font-size: 37px;
-        width: 400px;
+        width: 370px;
         margin-bottom: 5%;
     }
     .breef button{
@@ -124,8 +126,9 @@
         margin: 0px;
     }
     .footer{
-        margin: 90px -200px 0px;
-        padding: 30px 200px;
-        width:auto;
+        position: relative;
+        left: 185px;
+        padding: 30px 15px 30px 15px;
+        width: 360px;
     } 
 }
