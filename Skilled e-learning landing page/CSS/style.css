@@ -15,12 +15,6 @@ body{
     width: 80%;
 }
 
-html{
-    /* width: 90%; */
-    padding: 0px;
-    margin: 0px;
-}
-
 .header{
     display: flex;
     justify-content: space-between;
