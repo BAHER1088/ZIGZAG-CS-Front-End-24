@@ -1,0 +1,49 @@
+@media (max-width:376px){
+
+    .calculator{
+        padding: 15px;
+        width:77vw;
+        border-radius: 20px 20px 100px;
+    }
+
+    .entries{
+        width: 100%;
+        gap: 4px;
+        margin: 25px 0px 28px 7px;
+    }
+
+    .card div:first-child{
+        font-size: 11px;
+        font-weight: 900;
+    }
+
+    input{
+        width: 90%;
+        height: 48px;
+        border-radius: 6px;
+    }
+
+    .separator{
+        flex-direction: column;
+    }
+    
+    .line{
+        width: 75vw;
+        margin-top: 35px;
+    }
+
+    .ico{
+        width: 60px;
+        height: 60px;
+        position: relative;
+        right: -40%;
+        top: -30px;
+    }
+
+
+
+    span{
+        letter-spacing: 0px;
+        margin-right: 10px;
+    }
+}

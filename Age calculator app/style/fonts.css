@@ -1,0 +1,14 @@
+@font-face {
+    font-family: ExtraBoldItalic;
+    src: url(../assets/fonts/Poppins-ExtraBoldItalic.ttf);
+}
+
+@font-face {
+    font-family: Boldy;
+    src: url(../assets/fonts/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: Regular;
+    src: url(../assets/fonts/Poppins-Regular.ttf);
+}
