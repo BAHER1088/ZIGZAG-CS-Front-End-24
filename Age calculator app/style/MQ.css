@@ -40,6 +40,11 @@
         top: -25px;
     }
 
+    
+    .result{
+        width: 300px;
+    }
+
     p {
         margin: -17px 0px -10px 7px;
     }
