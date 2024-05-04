@@ -36,6 +36,7 @@ Users should be able to:
 ![Desktop](https://github.com/BAHER1088/ZIGZAG-CS-Front-End-24/assets/153401499/4088482e-8da4-42d9-ab73-d9869318630b)
 
 * **Mobile view (Iphone SE) :**
+  
 ![iPhone SE](https://github.com/BAHER1088/ZIGZAG-CS-Front-End-24/assets/153401499/ba494f04-b55b-4efe-b014-7adf23756377)
 
 ### Links
