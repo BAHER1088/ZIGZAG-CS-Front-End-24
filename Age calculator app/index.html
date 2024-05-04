@@ -3,44 +3,39 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- displays site properly based on user's device -->
     <link rel="stylesheet" href="./style/fonts.css">
     <link rel="stylesheet" href="./style/style.css">
     <link rel="stylesheet" href="./style/MQ.css">
     <link rel="icon" type="image/png" sizes="32x32"
       href="./assets/images/favicon-32x32.png">
-
     <title>Frontend Mentor | Age calculator app</title>
 
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
   </head>
   <body>
     <div class="calculator">
-      <form>
+      <form id="form">
         <div class="entries">
           <div class="card">
-            <div>DAY</div>
-            <div><input value="13" type="number" placeholder="DD" id="day"
+            <div id="dayLabel">DAY</div>
+            <div><input type="number" placeholder="DD" id="day"
                 min="1" max="31"></div>
+            <div class="error" id="dError"></div>
           </div>
-
           <div class="card">
-            <div>MONTH</div>
-            <div><input value="9" type="number" placeholder="MM" id="month"
+            <div id="monthLabel">MONTH</div>
+            <div><input type="number" placeholder="MM" id="month"
                 min="1" max="12"></div>
+            <div class="error" id="mError"></div>
           </div>
-
           <div class="card">
-            <div>YEAR</div>
-            <div><input value="2005" type="number" placeholder="YYYY" id="year"
-                min="1" max></div>
+            <div id="yearLabel">YEAR</div>
+            <div><input type="number" placeholder="YYYY" id="year"
+                min="1"></div>
+            <div class="error" id="yError"></div>
           </div>
         </div>
       </form>
+
       <div class="separator">
         <div class="line"></div>
         <button type="submit" title="calculate" class="ico" id="submit"><img
@@ -53,7 +48,6 @@
         <p><span id="days">--</span>days</p>
       </div>
     </div>
-    <div class="test"></div>
   </body>
   <script src="./main.js"></script>
 </html>
