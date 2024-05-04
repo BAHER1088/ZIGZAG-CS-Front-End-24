@@ -7,7 +7,6 @@ form.addEventListener('click', function (event) {
     const day = parseInt(document.getElementById('day').value);
     const month = parseInt(document.getElementById('month').value);
     const year = parseInt(document.getElementById('year').value);
-    // const submitBtn = document.getElementById('submit');
 
     const dayIn = document.getElementById('day');
     const monthIn = document.getElementById('month');
@@ -41,28 +40,24 @@ form.addEventListener('click', function (event) {
             yearIn.style.borderColor = 'hsl(0, 100%, 67%)';
             yearLable.style.color = 'hsl(0, 100%, 67%)';
         }
-        // submitBtn.style.top = '36%';
 
     } else {
         if (day < 1 || day > 31) {
             dayError = 'Must be a valid day';
             dayIn.style.borderColor = 'hsl(0, 100%, 67%)';
             dayLable.style.color = 'hsl(0, 100%, 67%)';
-            // submitBtn.style.top = '36%';
         }
 
         if (month < 1 || month > 12) {
             monthError = 'Must be a valid month';
             monthIn.style.borderColor = 'hsl(0, 100%, 67%)';
             monthLable.style.color = 'hsl(0, 100%, 67%)';
-            // submitBtn.style.top = '36%';
         }
 
         if (year > new Date().getFullYear() || year < 0) {
             yearError = 'Must be in the past';
             yearIn.style.borderColor = 'hsl(0, 100%, 67%)';
             yearLable.style.color = 'hsl(0, 100%, 67%)';
-            // submitBtn.style.top = '36%';
         }
     }
 
@@ -92,7 +87,6 @@ form.addEventListener('click', function (event) {
     if (dayError || monthError || yearError) {
         return;
     }
-    // submitBtn.style.top = '31%';
     const today = new Date();
     const birthDate = new Date(year, month - 1, day);
     let years = today.getFullYear() - birthDate.getFullYear();
