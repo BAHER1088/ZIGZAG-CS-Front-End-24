@@ -1,49 +1,55 @@
-@media (max-width:376px){
-
-    .calculator{
-        padding: 15px;
-        width:77vw;
+@media (max-width:376px) {
+    .calculator {
+        padding-top: 5px;
+        width: 77vw;
         border-radius: 20px 20px 100px;
     }
 
-    .entries{
+    .entries {
         width: 100%;
         gap: 4px;
         margin: 25px 0px 28px 7px;
     }
 
-    .card div:first-child{
+    .card div:first-child {
         font-size: 11px;
         font-weight: 900;
     }
 
-    input{
+    input {
         width: 90%;
-        height: 48px;
+        height: 40px;
         border-radius: 6px;
     }
 
-    .separator{
+    .separator {
         flex-direction: column;
-    }
-    
-    .line{
-        width: 75vw;
-        margin-top: 35px;
+        margin-bottom: 25px;
     }
 
-    .ico{
-        width: 60px;
-        height: 60px;
+    .line {
+        width: 75vw;
+        margin-top: 22px;
+    }
+
+    .ico {
+        width: 50px;
+        height: 50px;
         position: relative;
         right: -40%;
-        top: -30px;
+        top: -25px;
     }
 
+    p {
+        margin: -17px 0px -10px 7px;
+    }
 
-
-    span{
+    span {
         letter-spacing: 0px;
         margin-right: 10px;
+    }
+
+    .result p:last-child {
+        margin-bottom: 17px;
     }
 }
