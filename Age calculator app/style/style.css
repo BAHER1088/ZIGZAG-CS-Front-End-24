@@ -1,27 +1,15 @@
-.test{background-color: hsl(0, 0%, 100%);
-    background-color:hsl(0, 0%, 94%);
-    background-color:hsl(0, 0%, 86%);
-    background-color:hsl(0, 1%, 44%);
-    background-color:hsl(0, 0%, 8%);
-    background-color: hsl(0, 100%, 67%);
-    background-color: hsl(259, 100%, 65%);
-}
-
-
-
 body{
     display: flex;
     justify-content: center;
     position: relative;
     top: 20vh;
-
 }
 
 html{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: hsl(0, 0%, 94%);
+    background-color: hsl(0, 0%, 0%); /*94*/
     font-family: Regular;
 }
 
@@ -59,8 +47,14 @@ input{
     border-radius: 4px;
     padding-left: 10px;
     font-size: 15px;
-    font-weight: 700;
+    font-weight: 800;
+}
 
+.error{
+    font-size: 7px;
+    font-style: italic;
+    color: hsl(0, 100%, 67%);
+    margin-top: 4px;
 }
 
 .separator{
@@ -79,10 +73,11 @@ input{
     align-items: center;
     justify-content: center;
     border: none;
+    transition: 0.5s;
 }
+
 .ico:hover{
     background-color: hsl(0, 0%, 8%);
-
 }
 
 img{
