@@ -8,6 +8,9 @@ This repository contains a collection of small projects created with Zigzag club
 
 **2.** [Skilled e-learning landing page](https://github.com/BAHER1088/ZIGZAG-CS-Front-End-24/tree/main/Skilled%20e-learning%20landing%20page).
 
+**3.** [Age calculator app](https://github.com/BAHER1088/ZIGZAG-CS-Front-End-24/tree/main/Age%20calculator%20app).
+
+
 
 ## Getting Started
 
