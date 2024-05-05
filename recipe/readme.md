@@ -7,6 +7,9 @@ This repository contains a simple recipe web page for making omelette, created u
 This recipe web page provides a step-by-step guide for making a delicious omelette. It includes a list of ingredients, cooking instructions, and a photo of the finished omelette.
 
 ## Preview
+
+* **Live site:** [ Click here.](https://baherhossam.github.io/recipe-web-page/)
+
 * **Phone view:**
 
 ![PhoneView](https://github.com/BAHER1088/ZIGZAG-CS-Front-End-24/assets/153401499/d12bb5b5-cca3-4145-b567-f73489ea824d)
