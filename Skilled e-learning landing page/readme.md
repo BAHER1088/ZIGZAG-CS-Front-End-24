@@ -7,6 +7,10 @@ This repository contains a simple e-learning web page for listing a number of pr
 This Skilled e-learning landing web page provides a brief about the provided cources that you can inroll in and options to choose between them.
 
 ## Preview
+
+* **live site:**[Click here.](https://baherhossam.github.io/Skilled-e-learning-landing-page/)
+
+
 * **Web view:**
 ![Desktop](https://github.com/BAHER1088/ZIGZAG-CS-Front-End-24/assets/153401499/5bdc74ed-13ac-47f4-ae60-2c3c701bdb51)
 
